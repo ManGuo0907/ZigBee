@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\User\light -I ..\..\User -I ..\..\User\dht11 -I ..\..\User\AS608 -I ..\..\User\USART3 -I ..\..\User\sys -I ..\..\User\KEY -I ..\..\User\TIMER
+-I.\RTE\_OLED_SD1306
+-ID:\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-ID:\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\..\output\oled_i2c.o --omf_browse ..\..\output\oled_i2c.crf --depend ..\..\output\oled_i2c.d "..\..\User\OLED_I2C.c"

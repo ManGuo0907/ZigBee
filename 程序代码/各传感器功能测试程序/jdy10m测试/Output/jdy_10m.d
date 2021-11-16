@@ -1,0 +1,12 @@
+..\..\output\jdy_10m.o: ..\..\User\jdy_10m\jdy_10m.c
+..\..\output\jdy_10m.o: ..\..\User\jdy_10m\jdy_10m.h
+..\..\output\jdy_10m.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\jdy_10m.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\jdy_10m.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\jdy_10m.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\jdy_10m.o: ..\..\User\stm32f10x_conf.h
+..\..\output\jdy_10m.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\jdy_10m.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\jdy_10m.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\jdy_10m.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\jdy_10m.o: ..\..\Libraries\FWlib\inc\misc.h
